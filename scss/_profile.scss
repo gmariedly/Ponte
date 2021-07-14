@@ -1,0 +1,162 @@
+@import "navbar";
+@import "variables";
+@import "footer";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#home {
+    background: url("../img_bank/vintage-2608934.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .home-wrap {
+    padding-top: 140px;
+  }
+  
+  .home-header {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.75rem;
+    color: #fff;
+    text-shadow: 1px 1px 2px black;
+  }
+  
+  h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.4rem;
+    color: #fff;
+    text-shadow: 1px 1px 2px black;
+  }
+  
+  .home-line {
+    border: 0;
+    height: 3px;
+    width: 90%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 153, 0, 1), rgba(0, 0, 0, 0));
+  }
+  
+  .btn-default {
+    margin: 10px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #ffdd4a;
+    color: #fff;
+    border: none;
+    font-size: 25px;
+  }
+  
+  .btn-default:hover {
+    background-color: #fff;
+    color: #ffdd4a;
+  }
+  
+  
+  
+  #about {
+    background-color: #ffdd4a;
+    color: #fff;
+    padding-bottom: 80px;
+  }
+  
+  .about-wrap {
+    width: 60%;
+    margin: auto;
+    margin-top: 95px;
+  }
+  
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+  }
+  
+  .line {
+    margin-top: 30px;
+    width: 100%;
+    height: 100vh;
+    background-color: #ffdd4a;
+    border: none;
+  }
+  
+  .about-text {
+    font-size: 23px;
+    font-family: "Montserrat", sans-serif;
+    text-align: justify;
+  }
+  
+  .camp-link {
+    color: #fff;
+  }
+  
+  .skills-list li {
+    font-size: 18px;
+    list-style-position: inside;
+    text-align: justify;
+    margin-left: 40px;
+  }
+  
+  
+  
+  #portfolio {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    background-color: white;
+  }
+  
+  .portfolio-header {
+    color: #000;
+  }
+
+  .portfolio-text-cards {
+      margin: 10%;
+  }
+
+  
+  #contact {
+    background-color: #EEDFCC;
+    padding-top: 10px;
+    padding-bottom: 65px;
+  }
+  
+  .contact-header {
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+    font-size: 40px;
+  }
+  
+  .contact-line {
+    background-color: orange;
+    border: none;
+    height: 2px;
+    width: 40%;
+  }
+  
+  .contact-wrap {
+    margin-top: 60px;
+  }
+  
+  form {
+    margin-top: 50px;
+  }
+  
+  input {
+    width: 40%;
+    height: 30px;
+    margin: 10px;
+  }
+  
+  #message {
+    width: 40%;
+    height: 200px;
+    margin-top: 10px;
+  }
+  
+  #submit-button {
+    width: 10%;
+    height: 40px;
+  }
+  

@@ -1,0 +1,44 @@
+
+$screen-xs-min: 576px;
+$screen-sm-min: 576px;
+$screen-md-min: 768px;
+$screen-lg-min: 1200px;
+$screen-xl-min: 1200px;
+$screen-xxl-min: 1400px;
+
+@mixin breakpoint($size) {
+  @if $size == small {
+    @media only screen and (min-width: $screen-xs-min) {
+        @content;
+    }
+  }
+  @else if $size == med-small {
+    @media only screen and (min-width: $screen-sm-min) {
+        @content;
+    }
+  }
+  @else if $size == med {
+    @media only screen and (min-width: $screen-md-min) {
+        @content;
+    }
+  }
+ @else if $size == large {
+    @media only screen and (min-width: $screen-lg-min) {
+        @content;
+    }
+  }
+
+  @else if $size == x-large {
+    @media only screen and (min-width: $screen-xl-min) {
+        @content;
+    }
+  }
+
+  @else if $size == xx-large {
+    @media only screen and (min-width: $screen-xxl-min) {
+        @content;
+    }
+  }
+}
+
+
